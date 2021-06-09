@@ -93,9 +93,9 @@
 // function sumArray(array) {
 //     let sum = 0;
 //     for (const element of array) {
-//         sum += element / array.length;
+//         sum += element                                // TODO ділити в циклі на довжину не логічне рішення
 //     }
-//     return sum;
+//     return sum / array.length;
 // }
 // total = sumArray([1, 2, 3, 4])
 // console.log(total)
